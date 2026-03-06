@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,700&display=swap');
+@import "tailwindcss";
+
+:root {
+  font-family: 'Manrope', sans-serif;
+  color: #0f172a;
+  background: #f8f6f2;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: 'Manrope', sans-serif;
+  background: #f8f6f2;
+}
+
+.font-display {
+  font-family: 'Newsreader', serif;
+}
+
+.input {
+  width: 100%;
+  border-radius: 1rem;
+  border: 1px solid rgb(228 228 231);
+  background: rgb(250 250 249);
+  padding: 0.9rem 1rem;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: rgb(15 23 42);
+  outline: none;
+}
+
+.input::placeholder {
+  color: rgb(161 161 170);
+}
+
+.input:focus {
+  border-color: rgb(16 185 129);
+  box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.1);
+}
